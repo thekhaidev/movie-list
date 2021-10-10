@@ -8,4 +8,4 @@ var movies = [
   {title: 'Ex Machina'},
 ];
 
-export default testdata
+export default movies

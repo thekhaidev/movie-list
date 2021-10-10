@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App.jsx';
-import testdata from './test-data/testdata.js'
+import movies from './test-data/testdata.js'
 
-ReactDOM.render(<App data="testdata"/>, document.getElementById('app'));
+ReactDOM.render(<App data={movies}/>, document.getElementById('app'));
